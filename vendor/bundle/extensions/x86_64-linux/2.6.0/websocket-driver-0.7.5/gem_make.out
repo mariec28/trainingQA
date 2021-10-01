@@ -1,0 +1,21 @@
+current directory: /mnt/c/Users/aleir.DESKTOP-TBJP96K/Documents/Proyectos/trainingCRUD/vendor/bundle/gems/websocket-driver-0.7.5/ext/websocket-driver
+/home/marie/.rvm/rubies/ruby-2.6.8/bin/ruby -I /home/marie/.rvm/rubies/ruby-2.6.8/lib/ruby/2.6.0 -r ./siteconf20211001-112-ejwh10.rb extconf.rb
+creating Makefile
+
+current directory: /mnt/c/Users/aleir.DESKTOP-TBJP96K/Documents/Proyectos/trainingCRUD/vendor/bundle/gems/websocket-driver-0.7.5/ext/websocket-driver
+make "DESTDIR=" clean
+make: Warning: File 'Makefile' has modification time 0.26 s in the future
+make: warning:  Clock skew detected.  Your build may be incomplete.
+
+current directory: /mnt/c/Users/aleir.DESKTOP-TBJP96K/Documents/Proyectos/trainingCRUD/vendor/bundle/gems/websocket-driver-0.7.5/ext/websocket-driver
+make "DESTDIR="
+make: Warning: File 'Makefile' has modification time 0.13 s in the future
+compiling websocket_mask.c
+linking shared-object websocket_mask.so
+make: warning:  Clock skew detected.  Your build may be incomplete.
+
+current directory: /mnt/c/Users/aleir.DESKTOP-TBJP96K/Documents/Proyectos/trainingCRUD/vendor/bundle/gems/websocket-driver-0.7.5/ext/websocket-driver
+make "DESTDIR=" install
+make: Warning: File 'websocket_mask.so' has modification time 0.26 s in the future
+/usr/bin/install -m 0755 websocket_mask.so ./.gem.20211001-112-iw7u6f
+make: warning:  Clock skew detected.  Your build may be incomplete.

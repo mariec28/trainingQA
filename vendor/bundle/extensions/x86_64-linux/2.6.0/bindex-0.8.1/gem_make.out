@@ -1,0 +1,21 @@
+current directory: /mnt/c/Users/aleir.DESKTOP-TBJP96K/Documents/Proyectos/trainingCRUD/vendor/bundle/gems/bindex-0.8.1/ext/skiptrace
+/home/marie/.rvm/rubies/ruby-2.6.8/bin/ruby -I /home/marie/.rvm/rubies/ruby-2.6.8/lib/ruby/2.6.0 -r ./siteconf20211001-112-18aa822.rb extconf.rb
+creating Makefile
+
+current directory: /mnt/c/Users/aleir.DESKTOP-TBJP96K/Documents/Proyectos/trainingCRUD/vendor/bundle/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" clean
+make: Warning: File 'Makefile' has modification time 0.31 s in the future
+make: warning:  Clock skew detected.  Your build may be incomplete.
+
+current directory: /mnt/c/Users/aleir.DESKTOP-TBJP96K/Documents/Proyectos/trainingCRUD/vendor/bundle/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR="
+make: Warning: File 'Makefile' has modification time 0.28 s in the future
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.so
+make: warning:  Clock skew detected.  Your build may be incomplete.
+
+current directory: /mnt/c/Users/aleir.DESKTOP-TBJP96K/Documents/Proyectos/trainingCRUD/vendor/bundle/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" install
+make: Warning: File 'cruby.so' has modification time 0.32 s in the future
+/usr/bin/install -m 0755 cruby.so ./.gem.20211001-112-exb6dz/skiptrace/internal
+make: warning:  Clock skew detected.  Your build may be incomplete.

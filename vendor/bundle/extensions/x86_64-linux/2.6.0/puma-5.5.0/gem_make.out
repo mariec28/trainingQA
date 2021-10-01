@@ -1,0 +1,32 @@
+current directory: /mnt/c/Users/aleir.DESKTOP-TBJP96K/Documents/Proyectos/trainingCRUD/vendor/bundle/gems/puma-5.5.0/ext/puma_http11
+/home/marie/.rvm/rubies/ruby-2.6.8/bin/ruby -I /home/marie/.rvm/rubies/ruby-2.6.8/lib/ruby/2.6.0 -r ./siteconf20211001-112-1lu3y7w.rb extconf.rb
+/home/marie/.rvm/rubies/ruby-2.6.8/lib/ruby/2.6.0/mkmf.rb:1565: warning: Insecure world writable dir /mnt/c/Users/aleir.DESKTOP-TBJP96K in PATH, mode 040777
+using OpenSSL pkgconfig (openssl.pc)
+checking for openssl/bio.h... yes
+checking for DTLS_method() in openssl/ssl.h... yes
+checking for TLS_server_method() in openssl/ssl.h... yes
+checking for SSL_CTX_set_min_proto_version(NULL, 0) in openssl/ssl.h... yes
+checking for X509_STORE_up_ref()... yes
+checking for SSL_CTX_set_ecdh_auto(NULL, 0) in openssl/ssl.h... yes
+checking for Random.bytes... yes
+creating Makefile
+
+current directory: /mnt/c/Users/aleir.DESKTOP-TBJP96K/Documents/Proyectos/trainingCRUD/vendor/bundle/gems/puma-5.5.0/ext/puma_http11
+make "DESTDIR=" clean
+make: Warning: File 'Makefile' has modification time 0.32 s in the future
+make: warning:  Clock skew detected.  Your build may be incomplete.
+
+current directory: /mnt/c/Users/aleir.DESKTOP-TBJP96K/Documents/Proyectos/trainingCRUD/vendor/bundle/gems/puma-5.5.0/ext/puma_http11
+make "DESTDIR="
+make: Warning: File 'Makefile' has modification time 0.3 s in the future
+compiling http11_parser.c
+compiling mini_ssl.c
+compiling puma_http11.c
+linking shared-object puma/puma_http11.so
+make: warning:  Clock skew detected.  Your build may be incomplete.
+
+current directory: /mnt/c/Users/aleir.DESKTOP-TBJP96K/Documents/Proyectos/trainingCRUD/vendor/bundle/gems/puma-5.5.0/ext/puma_http11
+make "DESTDIR=" install
+make: Warning: File 'puma_http11.so' has modification time 0.31 s in the future
+/usr/bin/install -m 0755 puma_http11.so ./.gem.20211001-112-kg0f9v/puma
+make: warning:  Clock skew detected.  Your build may be incomplete.
