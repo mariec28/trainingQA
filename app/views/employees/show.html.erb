@@ -1,0 +1,16 @@
+<h1>Employee</h1>
+
+ <h2>Name</h2>
+ <p><%= "#{@employee.name} #{@employee.last_name}" %></p>
+  
+ <h2>Address</h2>
+ <p><%= @employee.address %></p>
+  
+ <h2>Phone</h2>
+ <p><%= @employee.phone %></p>
+  
+ <h2>Salary</h2>
+ <p><%= @employee.salary %></p>
+
+ <%= link_to 'Back', employees_path %>
+ 

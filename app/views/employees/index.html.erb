@@ -1,0 +1,29 @@
+<h1> Employees List </h1>
+
+<%= link_to "New Employee", new_employee_path %>
+<br>
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Address</th>
+      <th>Phone</th>
+      <th>Salary</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @employees.each do |employee| %>
+    <tr>
+      <td><%= "#{employee.name} #{employee.last_name}" %></td>
+      <td><%= employee.address %></td>
+      <td><%= employee.phone %></td>
+      <td><%= employee.salary %></td>
+      <td><%= link_to 'Show', employee_path(employee) %></td> 
+      <td><%= link_to 'Edit', edit_employee_path(employee) %></td>    
+      <td><%= link_to 'Delet', employee, method: :delete, data: { confirm: 'Are you sure to delete this employee?' } %></td>
+    </tr>
+    <% end %>
+  
+  </tbody>
+</table>
