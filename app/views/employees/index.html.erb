@@ -21,7 +21,7 @@
       <td><%= employee.salary %></td>
       <td><%= link_to 'Show', employee_path(employee) %></td> 
       <td><%= link_to 'Edit', edit_employee_path(employee) %></td>    
-      <td><%= link_to 'Delet', employee, method: :delete, data: { confirm: 'Are you sure to delete this employee?' } %></td>
+      <td><%= link_to 'Delete', employee, method: :delete, data: { confirm: 'Are you sure to delete this employee?' } %></td>
     </tr>
     <% end %>
   
